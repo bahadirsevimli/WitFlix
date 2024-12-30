@@ -1,0 +1,51 @@
+*{
+    border: 0.5px solid burlywood;
+}
+
+body{
+    height: 100vh;
+
+}
+
+
+/* HEADER */
+
+.inclusive{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 20px;
+}
+
+#logo-img{
+    width: 200px;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    height: 25px;
+}
+
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: gray;
+}
+
+
+/* MAİN */
+
