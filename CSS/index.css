@@ -330,5 +330,29 @@ footer{
     width: 90px;
    }
 
+   /* MAİN */
+
+   main{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 15px;
+    background-position: top;
+    background-size: 230%;
+    background-position-x:33%;
+   }
+   h1{
+    font-size: 25px;
+   }
+   .movie-details{
+    display: none;
+   }
+   .button {
+    font-size: 10px;
+    width: 90px;
+    height: 25px;
+  }
+  .hero-content{
+    row-gap: 10px;
+  }
 
 }
