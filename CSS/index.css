@@ -232,7 +232,7 @@ h3{
 
 
   .suggestion-row-1 .suggestion-item:nth-child(1){
-    background-image: url(/Assets/bloodydiamond.webp);
+    background-image: url(/Assets/spiderman.webp);
     background-size: cover;
   }
   .suggestion-row-1 .suggestion-item:nth-child(2){
@@ -354,5 +354,28 @@ footer{
   .hero-content{
     row-gap: 10px;
   }
+
+  /* SECTİON */
+
+  h3{
+    font-size: 15px;
+    
+  }
+  .suggestion-item{
+    width: 28%;
+    padding: 30px 0 15px 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    background-position: top;
+    background-size: 230%;
+    background-position-x:43%;
+}
+.suggestion-item .button{
+    font-size: 10px;
+    width: 90px;
+    height: 25px;
+}
+
+
 
 }
