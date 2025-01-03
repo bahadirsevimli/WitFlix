@@ -5,8 +5,13 @@ body{
     font-family: "Alegreya Sans", serif;
    font-weight: 300;
    font-style: normal;
-    
+}
+.dark-mode{
+    background-color: black;
+}
 
+#dark-mode-button{
+    margin-left: 20px;
 }
 .inclusive{
     max-width: 1000px;
@@ -48,6 +53,7 @@ header nav{
     align-items: center;
     gap: 25px;
     color: gray;
+    margin-left: 20px;
 }
 header nav a:hover{
     color: black;
@@ -115,10 +121,11 @@ main{
     background-color: #cccccc;    
     letter-spacing: 1px;
     line-height: 20px;
-    color: black;
     font-size: 1em;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: transform .2s;
+    min-width: 645px;
+    
 }
 .hero-content{
     padding: 40px;
@@ -138,9 +145,11 @@ main{
 }
 .maturity-rating{
     border: 1px solid white;
+    height: 15px;
 }
 main .maturity-rating{
     border: 1px solid black;
+    height: 20px;
 }
 .movie-details-header{
     
@@ -180,6 +189,7 @@ section{
     color: black;
     font-size: 1rem;
 }
+
 .suggestion-content{
     display: flex;
     justify-content: space-between;
@@ -339,6 +349,8 @@ footer{
     background-position: top;
     background-size: 230%;
     background-position-x:33%;
+    background-size: cover;
+    
    }
    h1{
     font-size: 25px;
@@ -353,6 +365,9 @@ footer{
   }
   .hero-content{
     row-gap: 10px;
+  }
+  .movie-info{
+    display: none;
   }
 
   /* SECTİON */
