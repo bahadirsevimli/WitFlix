@@ -2,13 +2,12 @@
 body{
     height: 100vh;
     color: white;
+    font-family: "Alegreya Sans", serif;
+   font-weight: 300;
+   font-style: normal;
     
 
 }
-
-
-
-
 .inclusive{
     max-width: 1000px;
     margin: 0 auto;
@@ -18,14 +17,11 @@ body{
     row-gap:20px;
 }
 
-
 /* HEADER */
 header{
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 50px 20px;
-    
-    
 }
 
 #logo-img{
@@ -42,6 +38,7 @@ header{
 
 input{
     height: 25px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 
@@ -121,6 +118,7 @@ main{
     color: black;
     font-size: 1em;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform .2s;
 }
 .hero-content{
     padding: 40px;
@@ -199,8 +197,10 @@ section{
     padding: 30px 0 15px 5px;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform .2s;
     
 }
+
 h3{
     font-weight: 600;
     font-size: 25px;
@@ -382,7 +382,7 @@ footer{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto ;
-        font-size: 12px;
+        font-size: 15px;
     }
     .footer-left{
         grid-area: 1 / 1 / 2 / 3;
@@ -395,4 +395,11 @@ footer{
     }
  
    
+}
+@media(min-width:1200px){
+    .suggestion-item:hover{
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5); 
+    }
 }
